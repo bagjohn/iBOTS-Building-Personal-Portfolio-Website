@@ -1,0 +1,72 @@
+/* Custom styles for skills grid and badges */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.skills-grid .skill-block h4 {
+  margin-bottom: 0.25rem;
+}
+
+.skills-grid .skill-block p {
+  margin-bottom: 0;
+}
+
+/* Base badge style (Bootstrap‑like) */
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+.skills-grid .badge {
+  margin: 0.15rem 0.25rem 0.15rem 0;
+}
+
+/* Color variants to match the classes used in content */
+
+.badge-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.badge-secondary {
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.badge-primary {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.badge-success {
+  color: #fff;
+  background-color: #28a745;
+}
+
+.badge-info {
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+.badge-warning {
+  color: #212529;
+  background-color: #ffc107;
+}
+
+/* Slightly tighten language badges to match */
+
+h3 + ul span.badge,
+h4 + ul span.badge {
+  margin-right: 0.35rem;
+}

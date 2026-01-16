@@ -1,0 +1,19 @@
+baseURL = 'https://bagjohn.github.io/'
+languageCode = 'en-us'
+title = 'Panagiotis Sakagiannis'
+
+[params]
+subtitle = "Clinical Medicine & Computational Systems Neuroscience"
+description = "Personal website of Panagiotis Sakagiannis, integrating clinical medicine and computational neuroscience."
+
+[params.author]
+name = "Panagiotis Sakagiannis"
+email = "p.sakagiannis@uni-koeln.de"
+github = "bagjohn"
+linkedin = "PanagiotisSakagiannis"
+website = "https://computational-systems-neuroscience.de"
+
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
