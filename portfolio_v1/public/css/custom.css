@@ -1,0 +1,28 @@
+/* Custom styles for skills grid and badges */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.skills-grid .skill-block h4 {
+  margin-bottom: 0.25rem;
+}
+
+.skills-grid .skill-block p {
+  margin-bottom: 0;
+}
+
+.skills-grid .badge {
+  margin: 0.15rem 0.25rem 0.15rem 0;
+  font-size: 0.85rem;
+}
+
+/* Slightly tighten language badges to match */
+
+h3 + ul span.badge,
+h4 + ul span.badge {
+  margin-right: 0.35rem;
+}

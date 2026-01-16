@@ -2,7 +2,7 @@
 authors = ["Sangeetha Nandakumar <98574336+sangeethankumar@users.noreply.github.com>"]
 channels = ["conda-forge"]
 name = "iBOTS-Building-Personal-Portfolio-Website"
-platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+platforms = ["win-64"]
 version = "0.1.0"
 
 [tasks]
@@ -11,3 +11,4 @@ version = "0.1.0"
 hugo = ">=0.154.5,<0.155"
 go = ">=1.25.5,<2"
 bash_kernel = ">=0.7.2,<0.11"
+standard-imghdr = ">=3.13.0,<4"
